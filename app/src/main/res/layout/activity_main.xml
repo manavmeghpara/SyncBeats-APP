@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Media control buttons in a vertical list -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnVolumeUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Up"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnVolumeDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Down"
+          />
+
+    </LinearLayout>
+
+</RelativeLayout>
